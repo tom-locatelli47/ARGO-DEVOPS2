@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: tomaslocatelli/registro-atividades-backend2:latest
+          image: tomaslocatelli/resgistro-star-wars-backend:latest
           ports:
             - containerPort: 8001
           env:
