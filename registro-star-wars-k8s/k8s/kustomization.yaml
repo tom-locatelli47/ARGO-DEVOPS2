@@ -2,12 +2,14 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: registro-atividades
 resources:
-  - namespace.yaml
-  - postgres-pvc.yaml
-  - postgres-deployment.yaml
-  - postgres-service.yaml
-  - api-deployment.yaml
-  - api-service.yaml
+- namespace.yaml
+- postgres-pvc.yaml
+- postgres-deployment.yaml
+- postgres-service.yaml
+- api-deployment.yaml
+- api-service.yaml
 images:
-  - name: tomaslocatelli/resgistro-star-wars-backend
-    newTag: ba28b2723fb3d0bb384a0a5aafc7bc420cba1a72
+- name: tom-locatelli47/registro-star-wars-devops
+  newTag: 0990dc1bf540c900ec8c7467f1c0e767c9743c4f
+- name: tomaslocatelli/resgistro-star-wars-backend
+  newTag: ba28b2723fb3d0bb384a0a5aafc7bc420cba1a72
