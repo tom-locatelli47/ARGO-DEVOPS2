@@ -12,7 +12,14 @@ resources:
   - frontend-deployment.yaml
   - frontend-service.yaml
 images:
+<<<<<<< HEAD
   - name: tom-locatelli47/registro-star-wars-devops
     newTag: 47530bd92abe8e9c3b7d170c078cc0b2fc22c9f6
   - name: tomaslocatelli/resgistro-star-wars-backend
     newTag: 0990dc1bf540c900ec8c7467f1c0e767c9743c4f
+=======
+- name: tomaslocatelli/resgistro-star-wars-backend
+  newTag: 0990dc1bf540c900ec8c7467f1c0e767c9743c4f
+- name: tomaslocatelli/resgistro-star-wars-backend
+  newTag: ba28b2723fb3d0bb384a0a5aafc7bc420cba1a72
+>>>>>>> parent of 3d5a4ab (CHORE: update backend image)
